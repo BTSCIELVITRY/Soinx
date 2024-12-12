@@ -1,0 +1,93 @@
+/* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #6200ea;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 5px 0 15px;
+    font-size: 1.2rem;
+}
+
+/* Section principale */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.container h2 {
+    text-align: center;
+    color: #6200ea;
+}
+
+/* Biographie */
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.bio img {
+    flex: 1 1 150px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #6200ea;
+}
+
+.bio div {
+    flex: 3 1 300px;
+}
+
+/* Timeline */
+.timeline {
+    margin-top: 30px;
+}
+
+.timeline ul {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-left: 4px solid #6200ea;
+    background: #f9f9ff;
+    border-radius: 5px;
+}
+
+.timeline li h4 {
+    margin: 0 0 5px;
+    color: #6200ea;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}

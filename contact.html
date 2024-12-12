@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <form action="mailto:ilyeskoudri56@gmail.com" method="post" enctype="text/plain">
+        <h1>Contactez-nous</h1>
+
+        <div class="form-group">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+        </div>
+
+        <div class="form-group">
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="raison">Pourquoi voulez-vous me contacter ?</label>
+            <textarea id="raison" name="raison" rows="4" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="contact">Comment préférez-vous être contacté ?</label>
+            <select id="contact" name="contact" required>
+                <option value="email">Email</option>
+                <option value="telephone">Téléphone</option>
+                <option value="sms">SMS</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Donnez-nous une note (1 à 5) :</label>
+            <div class="radio-group">
+                <label><input type="radio" name="note" value="1" required> 1</label>
+                <label><input type="radio" name="note" value="2"> 2</label>
+                <label><input type="radio" name="note" value="3"> 3</label>
+                <label><input type="radio" name="note" value="4"> 4</label>
+                <label><input type="radio" name="note" value="5"> 5</label>
+            </div>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="submit">Envoyer</button>
+            <button type="reset" class="reset">Réinitialiser</button>
+        </div>
+    </form>
+
+    <a href="index.html">Revenir à la page précédente</a>
+</body>
+</html>
