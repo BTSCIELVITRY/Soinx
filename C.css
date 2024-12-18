@@ -78,10 +78,10 @@ table th {
     color: #fff;
 }
 
-.example-image {
-    width: 10%;
+.imagec {
+    height: auto;
+    width: 200px;
 }
-
 footer {
     background-color: #333;
     color: #fff;
