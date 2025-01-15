@@ -51,7 +51,6 @@ nav a {
     color: rgb(255, 255, 255);
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
-    font-style: bold;
 }
 
 nav a:hover {
@@ -119,5 +118,34 @@ nav ul li {
     z-index: -1;
 }
 
+@media (max-width: 768px) {
+    .menu {
+      flex-direction: column;
+      gap: 10px;
+      width: 90%;
+      align-items: center;
+    }
+  
+    .menu a {
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .title {
+      font-size: 24px;
+    }
+  }
+  @media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
 
-    
+    button {
+        width: 100%;
+    }
+
+    input[type="number"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
